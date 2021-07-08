@@ -1,0 +1,1840 @@
+@media (min-width: 480px) and (max-width: 2100px) {
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.accueil-header{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #E7EBED;
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+    overflow: auto;
+}
+
+.accueil-notif{
+    position: fixed;
+    width: 260px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F8F9FA;
+    overflow: auto;
+    
+}
+
+
+.header-btn2{
+    display: flex;
+    position: absolute;
+    width: 240px;
+    height: 90px;
+    left: 5%;
+    top: 35px;
+    right: 5%; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+#photo-label{
+    width: 35%;
+    height: 75%;
+    background: #C4C4C4;
+    border: 5px solid #007965;
+    box-sizing: border-box;
+    border-radius: 60px;
+    object-fit: cover;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+
+}
+
+.Info-label{
+    width: 175px;
+    height: 90px;
+}
+
+.Name-label{
+    width: 175px;
+    height: 20px;
+    font-family: Arial Rounded MT Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.949vw;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #6DBE85;
+}
+
+.Money-label{
+    width: 175px;
+    height: 25px;
+    font-family: Arial Rounded MT Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.949vw;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #000000;
+}
+
+.Situation-label{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.228vw;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #000000;
+}
+
+#Not-Label{
+    position: absolute;
+    height: 22px;
+    left: 15%;
+    right: 15%;
+    top: 167px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: -0.408px;
+
+    color: #000000;
+}
+
+.Notification {
+    position: absolute;
+    height: 130px;
+    left: 15%;
+    right: 15%;
+    top: 250px;
+
+    background: #E7EBED;
+    border: 1px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Notification:hover{
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.logo{
+    position: absolute;
+    width: 70%;
+    height: 107px;
+    left: 15%;
+    right: 15%;
+    top: 35px;
+
+    background: #C4C4C4;
+    border-radius: 15px;
+}
+
+.btn-home{
+    position: absolute;
+    width: 70%;
+    height: 52px;
+    left: 15%;
+    right: 15%;
+    top: 192px;
+    border: 2px solid #007965;
+    box-sizing: border-box;
+    background: #6DBE85;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-home:hover{
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+}
+
+
+
+.pos-police{
+    position: absolute;
+    left: 43%;
+    top: 12px;
+}
+
+#police-btn-touch {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.116vw;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.btn-compte{
+    position: absolute;
+    width: 70%;
+    height: 52px;
+    left: 15%;
+    right: 15%;
+    top: 294px;
+
+    background: #FFFFFF;
+    border: 2px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+
+.btn-compte:hover{
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+}
+
+#symb {
+    position: absolute;
+    width: 26px;
+    height: 21px;
+    left: 15.1%;
+    top: 12px;
+}
+
+.pos-police1{
+    position: absolute;
+    width: 73px;
+    height: 24px;
+    left: 43%;
+    top: 12px;
+}
+
+#police-btn {
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.116vw;
+    line-height: 150px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.btn-client{
+    position: absolute;
+    width: 70%;
+    height: 52px;
+    left: 15%;
+    right: 15%;
+    top: 396px;
+
+    background: #FFFFFF;
+    border: 2px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-client:hover{
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+}
+
+.pos-police2{
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 43%;
+    top: 12px;
+}
+
+.btn-operation{
+    position: absolute;
+    width: 70%;
+    height: 52px;
+    left: 15%;
+    right: 15%;
+    top: 498px;
+
+    background: #FFFFFF;
+    border: 2px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-operation:hover{
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+}
+
+.pos-police3{
+    position: absolute;
+    width: 91px;
+    height: 24px;
+    left: 32%;
+    right: 35%;
+    top: 12px;
+}
+
+
+
+.btn-aide{
+    position: absolute;
+    width: 70%;
+    height: 52px;
+    left: 15%;
+    right: 15%;
+    top: 600px;
+
+    background: #FFFFFF;
+    border: 2px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-aide:hover{
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+}
+
+.pos-police5{
+    position: absolute;
+    width: 42px;
+    height: 24px;
+    left: 40%;
+    top: 12px;
+}
+
+.Center{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    left: 14.5%;
+    right: 16%;
+    top: 0px;
+    bottom: 0px;
+    padding: 150px 0px;
+}
+
+#Text-Menu{
+    position: absolute;
+    height: 22px;
+    left: 26px;
+    top: 110px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: -0.408px;
+
+    color: #000000;
+
+}
+
+.Card{
+    width: 385px;
+    height: 280px;
+    margin: 10px;
+    top: 154px;
+
+    background: #E7EBED;
+    border: 1px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+
+.Card:hover{
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.Info{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#Mini-Header{
+    margin: 5%;
+    width: 82px;
+    height: 22px;
+    left: 25px;
+    top: 0px;
+
+    font-family: Arial Rounded MT Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: -0.408px;
+
+    color: #000000;
+}
+
+.pos-solde {
+    position: absolute;
+    height: 22px;
+    left: 5%;
+    top: 10%;
+}
+
+#solde{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: -0.408px;
+
+    color: #000000;
+}
+
+#heure{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: -0.408px;
+
+    color: #F58634;
+}
+
+.courbe{
+    position: absolute;
+    width: 269.5px;
+    height: 124px;
+    left: 10%;
+    top: 40%;
+
+}
+
+.Function {
+    display: block;
+    width: 385px;
+    height: 280px;
+    margin: 10px;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.Print-Info1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 182.5px;
+    height: 130px;
+    background: #E7EBED;
+    border: 1px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.Print-Info1:hover{
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.Print-Info2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 182.5px;
+    height: 130px;
+    background: #E7EBED;
+    border: 1px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.Print-Info2:hover{
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.Print-Info3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 182.5px;
+    height: 130px;
+    background: #E7EBED;
+    border: 1px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+
+.Print-Info3:hover{
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.Print-Info4{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 182.5px;
+    height: 130px;
+    background: #E7EBED;
+    border: 1px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+
+.Print-Info4:hover{
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    transition: all 0.3s;
+}
+
+#Mini-Header1{
+    position: absolute;
+
+    top: 30%; left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    font-family: Arial Rounded MT Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: -0.408px;
+
+    color: #000000;
+}
+
+.Print-Info5{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 385px;
+    height: 130px;
+    background: #E7EBED;
+    border: 1px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.Print-Info5:hover{
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.Print-Info6{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 385px;
+    height: 130px;
+    background: #E7EBED;
+    border: 1px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+
+.Print-Info6:hover{
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    transition: all 0.3s;
+}
+
+
+
+.Card2{
+    
+    width: 96%;
+    height: 480px;
+    margin: 10px;
+
+    background: #E7EBED;
+    border: 1px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.Card2:hover{
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.Card3{
+    display: block;
+    width: 63.5%;
+    height: 280px;
+    margin: 10px;
+
+    background: #E7EBED;
+    border: 1px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.Card3:hover{
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    transition: all 0.3s;
+}
+
+
+
+
+
+
+.Account-Nav{
+    position: absolute;
+    width: 25%;
+    left: 5%;
+    height: 525px;
+
+    background: #E7EBED;
+    border-radius: 30px;
+}
+
+.Account-Profil{
+    position: absolute;
+    width: 70%;
+    height: 52px;
+    left: 15%;
+    right: 15%;
+    top: 40px;
+
+    border: 2px solid #007965;
+    box-sizing: border-box;
+
+    background: #6DBE85;
+    border-radius: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Account-Coordonnees{
+    position: absolute;
+    width: 70%;
+    height: 52px;
+    left: 15%;
+    right: 15%;
+    top: 164px;
+
+    background: #FFFFFF;
+    border: 2px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Account-Securite{
+    position: absolute;
+    width: 70%;
+    height: 52px;
+    left: 15%;
+    right: 15%;
+    top: 288px;
+
+    background: #FFFFFF;
+    border: 2px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Account-Paiement{
+    position: absolute;
+    width: 70%;
+    height: 52px;
+    left: 15%;
+    right: 15%;
+    top: 412px;
+
+    background: #FFFFFF;
+    border: 2px solid #007965;
+    box-sizing: border-box;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#Account-Police{
+    position: absolute;
+    width: 58px;
+    height: 29px;
+    left: 40%;
+    right: 40%;
+    top: 20%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.116vw;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #000000;
+    transition: all 0.2s;
+}
+
+#Account-Police1{
+    position: absolute;
+    width: 214px;
+    height: 29px;
+    left: 0%;
+    right: 5%;
+    top: 16%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.116vw;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #000000;
+    transition: all 0.2s;
+}
+
+.Account-Menu-Profil{
+    position: absolute;
+    width: 63%;
+    height: 525px;
+    left: 32%;
+
+    background: #E7EBED;
+    border-radius: 30px;
+}
+
+.Account-Menu-Securite{
+    position: absolute;
+    width: 801px;
+    height: 525px;
+    left: 400px;
+
+    background: #E7EBED;
+    border-radius: 30px;
+    display: none;
+}
+
+.Account-Menu-Paiement{
+    position: absolute;
+    width: 801px;
+    height: 525px;
+    left: 400px;
+
+    background: #E7EBED;
+    border-radius: 30px;
+    display: none;
+}
+
+.Account-Menu-Coordonnee{
+    position: absolute;
+    width: 801px;
+    height: 434px;
+    left: 400px;
+
+    background: #E7EBED;
+    border-radius: 30px;
+    display: none;
+}
+
+#Menu-Label{
+    position: absolute;
+    left: 8%;
+    top: 0px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #6DBE85;
+
+}
+
+
+
+.Account-Menu-TextField{
+    position: absolute;
+    display: flex;
+    height: 237px;
+    left: 8%;
+    right: 8%;
+    top: 141px;
+
+}
+
+.Account-Menu-Prenom{
+    position: absolute;
+    height: 63px;
+    left: 0%;
+    right: 57%;
+    top: 0%;
+}
+
+.Account-Menu-Moyen{
+    position: absolute;
+    right: 0%;
+    height: 63px;
+    left: 0px;
+    top: 0%;
+}
+
+
+
+#Account-Menu-Input-Prenom{
+    position: absolute;
+    right: 0%;
+    height: 40px;
+    left: 0%;
+    top: 20px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+
+#Account-Menu-Input-Moyen{
+    position: absolute;
+    right: 0%;
+    height: 40px;
+    left: 0%;
+    top: 20px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+
+.Account-Menu-Nom{
+    position: absolute;
+    width: 280px;
+    height: 59px;
+    right: 0px;
+    top: 0px;
+}
+
+#Account-Menu-Input-Nom{
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    right: 0px;
+    top: 20px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+
+.Account-Menu-Naiss{
+    position: absolute;
+    width: 661px;
+    height: 59px;
+    right: 0px;
+    top: 90px;
+}
+
+.Account-Menu-Mail{
+    position: absolute;
+    width: 661px;
+    height: 59px;
+    right: 0px;
+    top: 0px;
+}
+
+#Account-Menu-Input-Naiss{
+    position: absolute;
+    width: 661px;
+    height: 40px;
+    left: 0px;
+    top: 20px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+
+
+.Account-Menu-Sexe{
+    position: absolute;
+    width: 661px;
+    height: 59px;
+    right: 0px;
+    top: 180px;
+}
+
+.Account-Menu-Tel{
+    position: absolute;
+    width: 661px;
+    height: 59px;
+    right: 0px;
+    top: 90px;
+}
+
+#Account-Menu-Input-Sexe{
+    position: absolute;
+    width: 661px;
+    height: 40px;
+    left: 0px;
+    top: 20px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+
+.Mod-Btn{
+    position: absolute;
+    width: 172px;
+    height: 52px;
+    left: 314px;
+    top: 440px;
+
+    background: #6DBE85;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Mod-Btn2{
+    position: absolute;
+    width: 172px;
+    height: 52px;
+    left: 314px;
+    top: 358px;
+
+    background: #6DBE85;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#Account-Police2{
+    position: absolute;
+    left: 9px;
+    right: 13px;
+    top: 5px;
+    bottom: 4px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+
+}
+
+.Moyen-Paiement{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#Visa{
+
+width: 93px; 
+height: 64px;
+left: 9.11%;
+right: 79.4%;
+top: 32.57%;
+bottom: 55.43%;
+
+filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.08));
+cursor: pointer;
+}
+
+#Mastercard{
+    
+    width: 93px; 
+    height: 64px;
+    left: 20.6%;
+    right: 67.92%;
+    top: 32.57%;
+    bottom: 55.43%;
+
+    filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.08));
+    cursor: pointer;
+}
+
+#Orangemoney{
+    
+    width: 93px; 
+    height: 64px;
+    left: 32.08%;
+    right: 56.43%;
+    top: 32.57%;
+    bottom: 55.43%;
+
+    filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.08));
+    cursor: pointer;
+}
+
+#Mtnmonnaie{
+    
+    width: 93px; 
+    height: 64px;
+    left: 43.57%;
+    right: 44.94%;
+    top: 32.57%;
+    bottom: 55.43%;
+
+    filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.08));
+    cursor: pointer;
+}
+
+#Moovmonnaie{
+    
+    width: 93px; 
+    height: 64px;
+    left: 55.06%;
+    right: 33.46%;
+    top: 32.57%;
+    bottom: 55.43%;
+
+    filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.08));
+    cursor: pointer;
+}
+
+#ApplePay{
+    
+    width: 93px; 
+    height: 64px;
+    left: 67.17%;
+    right: 21.35%;
+    top: 32.57%;
+    bottom: 55.43%;
+    
+    filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.08)); 
+    cursor: pointer;
+}
+
+#Paypal{
+    
+    width: 93px; 
+    height: 64px;
+    left: 79.53%;
+    right: 9%;
+    top: 32.57%;
+    bottom: 55.43%;
+
+    filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.08));
+    cursor: pointer;
+}
+
+
+.search{
+    display: flex;
+    position: absolute;
+    height: 60px;
+    right: 5%;
+    
+    top: 40px;
+    
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#search{
+    
+    left: 0%;
+    right: 0%;
+    height: 60px;
+    border-radius: 25px;
+    background: #FFFF;
+    border: 2px solid #FFFF;
+    font-size: 17px;
+}
+
+#search-logo{
+    position: absolute;
+    right: 18px;
+    width: 24px;
+    height: 24px;
+}
+
+.background-modal-login{
+    position: fixed;
+    display: none;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(120.16deg, rgba(255, 255, 255, 0.4) 17.95%, rgba(255, 255, 255, 0.1) 80.88%);
+
+    -webkit-backdrop-filter: blur(15px); /* assure la compatibilité avec safari */
+    backdrop-filter: blur(15px);
+
+    
+}
+
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    .blurred-container {
+      background-color: rgba(255, 255, 255, .8);
+    }
+  }
+
+.modal-login{
+    position: fixed;
+    display: flex;
+    left: 35.07%;
+    right: 35.07%;
+    top: 22.44%;
+    bottom: 27.56%;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+
+    background: #F0F3F5;
+    border-radius: 15px;
+
+}
+
+.modal-login1{
+    position: fixed;
+    left: 35.07%;
+    right: 35.07%;
+    top: 22.44%;
+    bottom: 27.56%;
+    display: none;
+
+    background: #F0F3F5;
+    border-radius: 15px;
+
+}
+
+.close{
+    position: absolute;
+    width: 32.98px;
+    height: 32.98px;
+    right: 23.5px;
+    top: 26.84px;
+
+    
+}
+
+.label-login{
+    position: relative;
+    top: 5.11%;
+    bottom: 90%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 22px;
+    /* identical to box height, or 79% */
+
+    text-align: center;
+    letter-spacing: -0.408px;
+
+    color: #A2A2A2;
+}
+
+
+#text-field-mail{
+    position: absolute;
+    left: 10.47%;
+    right: 10.47%;
+    top: 26.67%;
+    bottom: 61.78%;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+
+
+
+#text-field-password{
+    position: absolute;
+    left: 10.47%;
+    right: 10.47%;
+    top: 48.22%;
+    bottom: 40.22%;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+
+.submit{
+    position: absolute;
+    width: 183px;
+    height: 52px;
+    left: calc(50% - 183px/2 - 0.5px);
+    bottom: 20%;
+    border: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px;
+    color: #FFFFFF;
+
+    background: #6DBE85;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+}
+
+
+#card12{
+    display: none;
+}
+
+#header-not{
+    position: absolute;
+
+    top: 30%; left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    font-family: Arial Rounded MT Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: -0.408px;
+
+    color: #000000;
+
+}
+
+.modal-ouvertureClient{
+    position: fixed;
+    display: none;
+    left: 22.22%;
+    right: 22.15%;
+    top: 2.22%;
+    bottom: 0%;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+
+    background: #F0F3F5;
+    border-radius: 30px;
+}
+
+.close-modal{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    right: 50px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.label-ouv{
+    position: absolute;
+    left: 32.83%;
+    right: 32.96%;
+    top: 0.5%;
+    bottom: 94.66%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: -0.408px;
+
+    color: #A2A2A2;
+
+}
+
+.ChosePicture-Modal{
+    position: absolute;
+    right: 40%;
+    height: 4%;
+    
+    top: 28%;
+    left: 40%;
+
+    background: #6DBE85;
+    border-radius: 15px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.116vw;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+.photo-modal{
+    position: absolute;
+    left: 40.82%;
+    width: 20%;
+    height: 20%;
+    top: 6.23%;
+    box-sizing: border-box;
+    border-radius: 200px;
+
+    background: #C4C4C4;
+    border: 5px solid #6DBE85;
+    box-sizing: border-box;
+}
+
+#nom-label{
+    position: absolute;
+    left: 9.24%;
+    right: 56.3%;
+    top: 31.93%;
+    bottom: 65.91%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.input-nom{
+    position: absolute;
+    left: 8.74%;
+    right: 56.3%;
+    top: 34.09%;
+    bottom: 61.36%;
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+#prenom-label{
+    position: absolute;
+    left: 56.8%;
+    right: 8.74%;
+    top: 31.93%;
+    bottom: 65.91%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.input-prenom{
+    position: absolute;
+    left: 56.3%;
+    right: 8.74%;
+    top: 34.09%;
+    bottom: 61.36%;
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+#passport-label{
+    position: absolute;
+    left: 9.24%;
+    right: 56.3%;
+    top: 42.05%;
+    bottom: 55.8%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.input-passport{
+    position: absolute;
+    left: 8.74%;
+    right: 56.3%;
+    top: 44.66%;
+    bottom: 50.8%;
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+#profession-label{
+    position: absolute;
+    left: 56.8%;
+    right: 8.74%;
+    top: 42.05%;
+    bottom: 55.8%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.input-profession{
+    position: absolute;
+    left: 56.3%;
+    right: 8.74%;
+    top: 44.2%;
+    bottom: 51.25%;
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+#naiss-label{
+    position: absolute;
+    left: 9.24%;
+    right: 56.3%;
+    top: 52.61%;
+    bottom: 45.23%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.input-naiss{
+    position: absolute;
+    left: 8.74%;
+    right: 56.3%;
+    top: 54.77%;
+    bottom: 40.68%;
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+#lieunaiss-label{
+    position: absolute;
+    left: 56.8%;
+    right: 23.97%;
+    top: 52.16%;
+    bottom: 45.68%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.input-lieunaiss{
+    position: absolute;
+    left: 56.3%;
+    right: 23.97%;
+    top: 54.32%;
+    bottom: 41.14%;
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+#sexe-label{
+    position: absolute;
+    left: 78.4%;
+    right: 8.74%;
+    top: 52.16%;
+    bottom: 45.68%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.input-sexe{
+    position: absolute;
+    left: 77.9%;
+    right: 8.74%;
+    top: 54.32%;
+    bottom: 41.14%;
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+#tel-label{
+    position: absolute;
+    left: 9.24%;
+    right: 56.3%;
+    top: 62.73%;
+    bottom: 35.11%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.input-tel{
+    position: absolute;
+    left: 8.74%;
+    right: 56.3%;
+    top: 64.89%;
+    bottom: 30.57%;
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+#mail-label{
+    position: absolute;
+    left: 56.8%;
+    right: 8.74%;
+    top: 62.73%;
+    bottom: 35.11%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.input-mail{
+    position: absolute;
+    left: 56.3%;
+    right: 8.74%;
+    top: 64.89%;
+    bottom: 30.57%;
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+#signature-label{
+    position: absolute;
+    left: 33.08%;
+    right: 32.46%;
+    top: 72.84%;
+    bottom: 25%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.signature{
+    position: absolute;
+    left: 32.58%;
+    top: 75%;
+    width: 35%;
+    height: 15%;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+
+}
+
+
+.submit1{
+    position: absolute;
+    width: 183px;
+    height: 52px;
+    left: calc(50% - 183px/2 - 0.5px);
+    bottom: 25px;
+    border: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px;
+    color: #FFFFFF;
+
+    background: #6DBE85;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.submit1:hover{
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+}
+
+.modal-InfoClient{
+    position: fixed;
+    display: none;
+    left: 22.22%;
+    right: 22.15%;
+    top: 2.22%;
+    bottom: 0%;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+
+    background: #F0F3F5;
+    border-radius: 30px;
+}
+
+.modal-Clients{
+    position: fixed;
+    overflow: auto;
+    display: none;
+    left: 22.22%;
+    right: 22.15%;
+    top: 2.22%;
+    bottom: 0%;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+
+    background: #F0F3F5;
+    border-radius: 30px;
+
+}
+
+.add{
+    color: #6DBE85;
+}
+
+.modal-operation{
+
+    position: fixed;
+    display: none;
+    left: 22.22%;
+    right: 22.15%;
+    top: 2.22%;
+    bottom: 0%;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.25);
+
+    background: #F0F3F5;
+    border-radius: 30px;
+
+}
+
+#type-op{
+
+    position: absolute;
+    left: 8.74%;
+    right: 70.41%;
+    top: 62.73%;
+    bottom: 35.11%;
+
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+
+#mode{
+
+    position: absolute;
+    left: 30.34%;
+    right: 56.3%;
+    top: 62.73%;
+    bottom: 35.11%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.input-op{
+    position: absolute;
+    left: 8.74%;
+    right: 70.41%;
+    top: 64.89%;
+    bottom: 30.57%;
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.input-mode{
+    position: absolute;
+    left: 30.34%;
+    right: 56.3%;
+    top: 64.89%;
+    bottom: 30.57%;
+    border: none;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+}
