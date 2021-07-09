@@ -1,4 +1,10 @@
-<?php include('includes/headers.php') ?>
+<?php 
+session_start();
+
+if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
+
+ ?>
+ <?php include('includes/headers.php') ?>
 
         <title>Accueil</title>
     </head>
@@ -71,3 +77,9 @@
         </div>
         
 <?php include('includes/footer.php') ?>
+<?php 
+}else{
+     header("Location: index.php");
+     exit();
+}
+ ?>

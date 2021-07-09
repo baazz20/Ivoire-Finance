@@ -1,9 +1,11 @@
-<?php include('includes/headers.php') ?>
-
+<?php 
+include('includes/headers.php'); ?>
+        <link rel="stylesheet" href="style/login.css">
         <title>Accueil</title>
 
     </head>
     <body>
+    
         <header class="accueil-header">
 
             <div class="logo">
@@ -36,13 +38,24 @@
                 Connexion
             </h1>
 
-            <form form method="POST" action=".php" role="search">
-                <input type="email" id="text-field-mail" name="mail" placeholder="Mail" required>
-                <input type="password" id="text-field-password" name="Naiss" placeholder="Code pin" required>
-                <button class="submit" id="label-button">
-                    Se Connecter
-                </button>
-            </form>
+            <!-- formulaire de connexion -->
+            
+
+         <form action="controllers/login.php" method="post">
+     	<h2>LOGIN</h2>
+     	<?php if (isset($_GET['error'])) { ?>
+     		<p class="error"><?php echo $_GET['error']; ?></p>
+     	<?php } ?>
+     	<label>Nom d'utilisateur</label>
+     	<input type="text" name="uname" placeholder="Nom d'utilisateur"><br>
+
+     	<label>Mot de passe</label>
+     	<input type="password" name="password" placeholder="mot de passe"><br>
+
+     	<button type="submit">Login</button>
+     </form>
+     </form>
+            <!-- fin formulaire de connexion -->
 
         </div>
         
